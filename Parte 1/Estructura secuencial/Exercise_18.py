@@ -11,7 +11,7 @@ class Empleado:
 
     def calcular_salario_neto(self):
         salario_bruto = self.calcular_salario_bruto()
-        return salario_bruto * (1 - self.retencion_fuente)
+        return salario_bruto * (1 - self.retencion_fuente/100)
 
     def mostrar_informacion(self):
         salario_bruto = self.calcular_salario_bruto()
