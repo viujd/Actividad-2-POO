@@ -33,6 +33,9 @@ class Empresa:
         print(f"Salario vendedores depto. 3: {salario3:.2f}")
 
 
+ejemplo=Empresa(4200000, 250000, 3300000, 380320)
+ejemplo.mostrar_info()
+
 ventas_depto1 = float(input("Ingrese las ventas del departamento 1: "))
 ventas_depto2 = float(input("Ingrese las ventas del departamento 2: "))
 ventas_depto3 = float(input("Ingrese las ventas del departamento 3: "))
