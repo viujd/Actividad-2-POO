@@ -26,6 +26,5 @@ class Triangulo:
         print(f"Área: {area:.2f}")
 
 
-# Ejemplo de uso
-triangulo = Triangulo(lado1=5, lado2=12, lado3=3)
+triangulo = Triangulo(lado1=8, lado2=12, lado3=6)
 triangulo.mostrar_informacion()
