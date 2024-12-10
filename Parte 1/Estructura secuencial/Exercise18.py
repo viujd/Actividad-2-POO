@@ -24,10 +24,10 @@ class Empleado:
 
 # Ejemplo de uso
 empleado1 = Empleado(
-    codigo="EMP001",
-    nombres="Juan Pérez",
-    horas_trabajadas=160,
-    valor_hora=50,
+    codigo="58PP3",
+    nombres="Juan David",
+    horas_trabajadas=90000,
+    valor_hora=30,
     retencion_fuente=10
 )
 
