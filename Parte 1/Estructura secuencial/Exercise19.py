@@ -1,5 +1,4 @@
 import math
-
 class TrianguloEquilatero:
     def __init__(self, lado):
         self.lado = lado
@@ -24,5 +23,5 @@ class TrianguloEquilatero:
         print(f"Altura: {altura:.2f}")
         print(f"Área: {area:.2f}")
 
-triangulo = TrianguloEquilatero(lado=10)
+triangulo = TrianguloEquilatero(lado=12)
 triangulo.mostrar_informacion()
